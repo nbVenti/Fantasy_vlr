@@ -206,10 +206,6 @@ async function readAllTeams(teams) {
 }
 
 
-
-
-
-
 async function write() {
     try {
         const anson = await readCSV("anson");

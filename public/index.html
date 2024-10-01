@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy VLR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Fantasy VLR</h1>
+    </header>
+    <main>
+        <section id="auth">
+            <h2>User Authentication</h2>
+            <div id="authContainer">
+                <button id="loginBtn">Login</button>
+                <button id="signupBtn">Sign Up</button>
+            </div>
+            <div id="authFormContainer"></div>
+        </section>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Fantasy VLR is a fantasy sports application focused on Valorant. It allows users to create fantasy teams,
+                track player performance, and compete with others.</p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <button id="toggleFeaturesBtn">Toggle Features</button>
+            <ul id="featuresList">
+                <li>Create and manage fantasy teams</li>
+                <li>Track player statistics and performance</li>
+                <li>Compete in leagues with friends</li>
+                <li>Real-time updates and notifications</li>
+            </ul>
+        </section>
+        <section id="teamBuilding">
+            <h2>Team Building</h2>
+            <div id="teamFormContainer">
+                <input type="text" id="teamName" placeholder="Team Name">
+                <input type="text" id="playerName" placeholder="Player Name">
+                <button id="addPlayerBtn">Add Player</button>
+                <button id="createTeamBtn">Create Team</button>
+            </div>
+            <div id="teamListContainer"></div>
+        </section>
+        <section id="updates">
+            <h2>Real-time Updates</h2>
+            <div id="updatesContainer">
+                <!-- Real-time updates will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Fantasy VLR. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

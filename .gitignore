@@ -10,3 +10,7 @@ vlrggapi/
 ./env/
 env/
 node_modules/
+fantasy-vlr-backend/node_modules
+fantasy-vlr-backend/node_modules/
+fantasy-vlr-backend/package-lock.json
+fantasy-vlr-backend/package.json

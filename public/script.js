@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Simulate real-time updates
     const updates = [
-        'Player X scored 30 points!',
-        'Team Y won their match!',
-        'Player Z achieved a new high score!',
-        'New league standings are available!'
+        /**
+         * @todo maybe user VLR api to get updates/news/new games about to happen
+         * @body live updates average rating everytime a game finishes 
+         */ 
     ];
 
     let updateIndex = 0;

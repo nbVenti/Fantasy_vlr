@@ -226,6 +226,11 @@ async function write() {
     }
 }
 
+/**
+ * Need to change the names to match the CSV files when new teams are created
+ * Change the names in the readCSV function
+ * 
+ */
 async function main() {
     const anson = await readCSV("anson");
     const lucas = await readCSV("lucas");

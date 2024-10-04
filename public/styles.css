@@ -15,7 +15,7 @@ input {
 /* Apply a background gradient to the body */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    background: linear-gradient(135deg, #1B1A23, #2B2E3B);
     color: #333;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ body {
 
 /* Style the header */
 header {
-    background: rgba(255, 255, 255, 0.8);
+    background: #C6D8FF;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    color: #ff7e5f;
+    color: #8B5FBF;
 }
 
 /* Style the main content */
@@ -47,7 +47,7 @@ main {
 }
 
 main section {
-    background: rgba(255, 255, 255, 0.8);
+    background: #C6D8FF;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -58,7 +58,7 @@ main section {
 
 main h2 {
     font-size: 2em;
-    color: #ff7e5f;
+    color: #8B5FBF;
     margin-bottom: 10px;
 }
 
@@ -78,7 +78,7 @@ button {
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background-color: #ff7e5f;
+    background-color: #8B5FBF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -86,7 +86,7 @@ button {
 }
 
 button:hover {
-    background-color: #feb47b;
+    background-color: #8B5FBF;
 }
 
 input {
@@ -120,7 +120,7 @@ input {
 
 /* Style the footer */
 footer {
-    background: rgba(255, 255, 255, 0.8);
+    background: #C6D8FF;
     padding: 10px;
     text-align: center;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);

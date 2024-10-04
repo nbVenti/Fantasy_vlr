@@ -205,7 +205,11 @@ async function readAllTeams(teams) {
     console.log('-'.repeat(35));
 }
 
-
+/**
+ * Need to change the names to match the CSV files when new teams are created
+ * Change the names 
+ *  
+ */
 async function write() {
     try {
         const anson = await readCSV("anson");

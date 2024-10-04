@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "csv-parser": "^3.0.0"
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2"
   }
 }

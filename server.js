@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const bodyParser = require('body-parser');
@@ -6,9 +7,11 @@ const fs = require('fs').promises;
 
 const app = express();
 const PORT = 3000;
-const SECRET_KEY = 'your_secret_key';
+
+const SECRET_KEY =  
 
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, 'public')));
 
 // In-memory storage for users and teams (for simplicity)
 let users = [];
@@ -81,6 +84,11 @@ app.post('/teams', authenticateToken, async (req, res) => {
     await saveData();
     res.status(201).send('Team created');
 });
+
+// Homepage
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+}); 
 
 // Start the server
 app.listen(PORT, async () => {
